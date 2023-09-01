@@ -1,0 +1,493 @@
+#body__item {  
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+position: fixed;
+
+    width: 100%;
+    height: 10%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid gray  ;
+    box-shadow: 2px 2px 2px 2px gray;
+    cursor: pointer;
+  }
+  @media (max-width: 800px) {
+    .p {
+      display: none;
+    }
+    #body__button1{
+      display: none;
+    }
+    #body__button2{
+      display: none;
+    }
+    #body__button3{
+      display: none;
+    }
+   #menu{
+
+    margin-left: 300px;
+    
+   }
+   #img{
+  position: absolute;
+  left: 0;
+   }
+   .menu-icon{
+    position: absolute;
+    right: 0;
+    padding-bottom: 30px;
+   }
+   #body__item{
+    position: absolute;
+    position: fixed;
+   }
+#avartar__name{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  padding-right: 5rem;
+  padding-top: 5rem;
+}
+.div__avartar{
+  display: flex;
+ flex-direction: column; 
+}
+#name{
+  position: relative;
+  bottom: 5rem;
+}
+#avatar{
+  margin-top: 90%;
+}
+#NamPham__code{
+  display: flex;
+  flex-direction: column;
+}
+#footer__item{
+  color: rgb(0, 240, 120);
+  font-size: 1.25rem;
+  animation: colorRotate 2.5s linear 0s infinite;
+ text-align: center;
+
+ }
+
+  }
+
+
+
+
+  #img{
+    margin-top: -10px;
+    
+  }
+#body__btn{
+  display: flex;
+ justify-content: space-around;
+}
+a{
+  font-family: sans-serif;
+  padding-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+#body__button1{
+  margin-top: 5px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid;
+  cursor: pointer;
+}
+#body__button1:hover{
+  transform: translateY(-3px);
+}
+#body__button2{
+  border: 1px solid;
+  background-color: #fff;
+   margin-top: 5px;
+width: 110px;
+height: 40px;
+border-radius: 50px;
+cursor: pointer;
+}
+#body__button2:hover{
+  transform: translateY(-3px);
+}
+#body__button3{
+border: 1px solid;
+background-color: #fff;
+margin-top: 5px;
+width: 110px;
+height: 40px;
+border-radius: 50px;
+cursor: pointer;
+}
+#body__button3:hover{
+  transform: translateY(-3px);
+}
+#menu .menu-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  padding:30px 100px ;
+  color: #fff;
+}
+
+#menu .menu-icon {
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  font-size: 20px;
+}
+
+#menu .menu-items {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu .menu-items li {
+  position: relative;
+}
+
+#menu .menu-items a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff9f9;
+  
+}
+
+#menu .menu-items ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  padding: 0;
+}
+
+#menu .menu-items ul li {
+  position: relative;
+}
+
+#menu .menu-items ul li a {
+  padding: 10px 15px;
+  color: #ffffff;
+  
+}
+.menu-items{
+  background-color: #212121;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  
+
+}
+#menu__logo{
+border-radius: 50%;
+animation: slideRight 2s ease-in-out;
+}
+#menu{
+  z-index: 999;
+ 
+}
+#a1{
+  animation: slideRight 2s ease-in-out;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.10);
+
+}
+#a2{
+  animation: slideRight 2s ease-in-out;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.10);
+}
+#a3{
+  animation: slideRight 2s ease-in-out;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.10);
+}
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.vid{
+  
+  width: 80%;
+  height:15rem;
+  margin-top:100px;
+  border-radius: 20px;
+  margin-left: 10%;
+  margin-right: 5%;
+  border: 4px solid;
+  animation: flashingBorder 2s linear infinite;
+  
+  }
+  @keyframes flashingBorder {
+    0% {
+      border-color: red;
+    }
+    14% {
+      border-color: orange;
+    }
+    28% {
+      border-color: yellow;
+    }
+    42% {
+      border-color: green;
+    }
+    57% {
+      border-color: blue;
+    }
+    71% {
+      border-color: indigo;
+    }
+    85% {
+      border-color: violet;
+    }
+    100% {
+      border-color: red;
+    }
+  }
+
+#avatar{
+    width: 150px;
+    border: 4px solid;
+    animation: flashingBorder 2s linear infinite;
+    border-radius: 50%;
+  }
+  #name{       
+font-weight: 600;
+white-space: nowrap;
+ padding-left: 20px;
+ padding-top: 70px;
+ font-size: 25px;
+  }
+  #avartar__name{
+    position: absolute;
+    inset: 0px;
+    margin-top: 10%;
+    margin-left: 18%;
+    z-index: 123;
+    display: flex;
+    align-items: center;
+    z-index: 888;
+  }
+  #wirte{
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top:7rem ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 4px solid rgba(14,165,233,0.5);  
+  }
+ #one{
+  width: 300px;
+  border-top-right-radius:10px ;
+  border-top-left-radius:10px ;
+ }
+ #code1{
+
+ display: flex;
+flex-direction: column;
+
+ }
+ img{
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  box-sizing: border-box;
+ }
+ #all{
+  width: fit-content;
+  width: 300px;
+  border: 2px solid red;
+  border-radius: 10px;
+  animation: glowing 1s infinite;
+ }
+ #all1{
+  margin-top: 20px;
+  width: fit-content;
+  width: 300px;
+  border: 2px solid red;
+  border-radius: 10px;
+  animation: glowing 1s infinite;
+ }
+ .namecode1{
+  margin: 0;
+  box-sizing: border-box;
+  opacity: 1;
+  background-color: rgb(195, 206, 219);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  width: 300px;
+  height: 35px;
+ }
+ #button__all{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding-bottom: 18px;
+
+ }
+ #button1{
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  color:rgba(14,165,233);
+  width: 100px;
+  height: 30px;
+  
+  border:1px solid rgba(14,165,233);
+ }
+ #myButton{
+  cursor: pointer;
+  border:1px solid #ffffff89;
+  width: 100px;
+  height: 30px;
+  opacity: 1;
+  border-radius: 10px;
+  background-color: rgb(85, 201, 255);
+  color: #fff;
+ }
+ body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: inherit;
+ }
+ #NamPham__code{
+  justify-content: space-around;
+  align-items: center;
+  
+  display: flex;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ 
+ }
+ @keyframes glowing {
+  0% {
+    border-color: red;
+    box-shadow: 0 0 5px red;
+  }
+  50% {
+    border-color: red;
+    box-shadow: 0 0 20px red;
+  }
+  100% {
+    border-color: red;
+    box-shadow: 0 0 5px red;
+  }
+}
+#myButton1{
+  cursor: pointer;
+  border:1px solid #ffffff89;
+  width: 100px;
+  height: 30px;
+  opacity: 1;
+  border-radius: 10px;
+  background-color: rgb(85, 201, 255);
+  color: #fff;
+ }
+ #footer{
+  color: #fff;
+  background-color: #212121;
+ 
+  display: flex;
+  justify-content: center;
+ 
+ }
+ #footer__item{
+  color: rgb(0, 240, 120);
+  font-size: 1.25rem;
+  animation: colorRotate 2.5s linear 0s infinite;
+    align-items: center;    
+    justify-content: center;
+ }
+ @keyframes colorRotate {
+  from {
+    color: #FF0000;
+  }
+  10% {
+    color: #00FFFF;
+  }
+  50% {
+    color: #00FF00;
+  }
+   100% {
+    color: #FFFF00;
+  }
+} 
+#head{
+  background-color: rgba(0, 0, 0, 0.455);
+  z-index: 5858858848;
+    position: absolute;
+ position: fixed;
+ bottom: 0;
+ right: 0;
+ left: 0;
+ top:0;
+  width: 100vw;
+  height: 100vh;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#head__item{
+  background-color: #fff;
+ 
+}
+#head__btn{
+ 
+   
+  
+  background-color: rgba(203,213,225);
+}
+#icon{
+  cursor: pointer;
+  display: flex;
+  justify-content: end;
+  padding: 0;
+  margin: 0;
+
+  font-size: 20px;
+}
+#ThongBao{
+  color: rgba(14,165,233);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
+#noidung{
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-weight: 700;
+  padding-left: 10px;
+  padding-right:10px ;
+}
+#button__head{
+  display: flex;
+ justify-content: end;
+ padding: 10px;
+ 
+}
+#buttonhead{
+  cursor: pointer;
+  color: rgba(14,165,233);
+  background-color: #fff;
+  border: 1px solid rgba(14,165,233) ;
+  font-size: 17px;
+  border-radius: 5px;
+}

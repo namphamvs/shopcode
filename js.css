@@ -1,0 +1,59 @@
+
+#head{
+    background-color: rgba(0, 0, 0, 0.455);
+    z-index: 5858858848;
+    position: absolute;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   top:0;
+    width: 100vw;
+    height: 100vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#head__item{
+    background-color: #fff;
+   
+}
+#head__btn{
+   
+     
+    
+    background-color: rgba(203,213,225);
+}
+#icon{
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    padding: 0;
+    margin: 0;
+
+    font-size: 20px;
+}
+#ThongBao{
+    color: rgba(14,165,233);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+#noidung{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right:10px ;
+}
+#button__head{
+    display: flex;
+   justify-content: end;
+   padding: 10px;
+   
+}
+#buttonhead{
+    cursor: pointer;
+}
